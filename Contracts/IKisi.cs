@@ -1,6 +1,6 @@
 namespace Calismam1.Contracts
 {
-    public interface IKisiler
+    public interface IKisi
     {
         int Id { get; set; }
         string KisiAdi { get; set; }

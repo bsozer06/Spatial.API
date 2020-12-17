@@ -1,8 +1,8 @@
 using System;
 
-namespace Calismam1.Contracts
+namespace Calismam1.Entities
 {
-    public interface INoktalar
+    public class Nokta
     {
         int Id { get; set; }
         string Ad { get; set; }
@@ -12,5 +12,7 @@ namespace Calismam1.Contracts
         int MahalleId { get; set; }
         bool isActive { get; set; }
         string Aciklama { get; set; } 
+
+        public Kisi KisiId { get; set; }
     }
 }
