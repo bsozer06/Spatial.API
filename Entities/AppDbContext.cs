@@ -17,6 +17,7 @@ namespace Spatial.API.Entities
         {
         }
 
+        // Program.cs icerisinde SeedingDatabase metodunun calisma icin GEREKLI !!!!!
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if(!optionsBuilder.IsConfigured)
@@ -56,7 +57,6 @@ namespace Spatial.API.Entities
             //     new Person { Id = 3, Name = "Ayse", Job = "Baker", Gender = "Female", Age = 29 },
             //     new Person { Id = 4, Name = "Zekeriya", Job = "İssiz", Gender = "Male", Age = 54 }
             // );
-
             // builder.Entity<Field>().HasData
             // (
             //     new Field { Id = 1, Name = "parsel-1", PersonId = 1, Wkt = "MultiPolygon (((29.4695947 36.35849605, 29.46567075 36.37798056, 29.46567075 36.39061656, 29.47286465 36.40114498, 29.48594447 36.4079877, 29.50229425 36.41009302, 29.51537408 36.40167137, 29.5284539 36.39219591, 29.53041587 36.38377232, 29.520606 36.376" },

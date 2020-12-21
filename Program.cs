@@ -15,7 +15,7 @@ namespace Calismam1
     {
         public static void Main(string[] args)
         {
-            AddingDataForField();
+            SeedingDatabase();
 
             CreateHostBuilder(args).Build().Run();
         }
@@ -27,11 +27,11 @@ namespace Calismam1
                     webBuilder.UseStartup<Startup>();
                 });
 
-        public static void AddingDataForField()
+        public static void SeedingDatabase()
         {
             using(var db = new AppDbContext())
             {
-                if(db.Fields.Count()==0 || db.People.Count()==0)
+                if(db.Fields.Count()==0 && db.People.Count()==0)
                 {
                     var geomfactory = new GeometryFactory(new PrecisionModel(), 4326);
                     var wktReader = new NetTopologySuite.IO.WKTReader(geomfactory);  // reading for wkt to geometry 
