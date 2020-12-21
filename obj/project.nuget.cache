@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N/pfMpXShG8IkM2MXeNupnVWW2GNjpTUBY/HFZRK44ucRd6famTO9GLGQq+72faWOs8eE1LcYIAIseQ9ezB5Ow==",
+  "dgSpecHash": "OQgrGpPz0W5krAa+GFeO0UMPsA/M4Tzh5ZGh0TU6nBnAbGTtdts/ugX3PR7EN4ceieDMfagqOkDPEm9kyaHJdA==",
   "success": true,
-  "projectFilePath": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
+  "projectFilePath": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
