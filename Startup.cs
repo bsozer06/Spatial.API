@@ -27,12 +27,29 @@ namespace Calismam1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(option => {
+            services.AddDbContext<AppDbContext>(option =>
+            {
                 option.UseNpgsql(@"Host=localhost;Database=postgres;Username=postgres;Password=2416",
                                     x => x.UseNetTopologySuite());
             });
-
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            });
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                    name: "burhanAllowOrigins",
+                    builder =>
+                    {
+                        builder
+                        .WithOrigins("http://localhost:4200")
+                        .WithMethods("GET", "POST", "DELETE", "PUT")
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader();
+                    });
+            });
+            services.AddHealthChecks();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

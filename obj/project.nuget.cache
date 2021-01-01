@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OQgrGpPz0W5krAa+GFeO0UMPsA/M4Tzh5ZGh0TU6nBnAbGTtdts/ugX3PR7EN4ceieDMfagqOkDPEm9kyaHJdA==",
+  "dgSpecHash": "meBGrHOAXFZZ0dk0O42Q8hAsBVkxqaObK2jzkIodYbKlnGlqD/XBYYFhmbAA1aotKHmgC0QTLVUvu5Mbsxz05A==",
   "success": true,
-  "projectFilePath": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
+  "projectFilePath": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.4\\microsoft.aspnetcore.jsonpatch.3.1.4.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.4\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.4.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.1\\microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",
@@ -22,6 +24,8 @@
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\nettopologysuite\\2.0.0\\nettopologysuite.2.0.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\nettopologysuite.io.postgis\\2.0.0\\nettopologysuite.io.postgis.2.0.0.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\npgsql\\5.0.1.1\\npgsql.5.0.1.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.1\\npgsql.entityframeworkcore.postgresql.5.0.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.nettopologysuite\\5.0.1\\npgsql.entityframeworkcore.postgresql.nettopologysuite.5.0.1.nupkg.sha512",

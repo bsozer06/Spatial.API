@@ -14,7 +14,7 @@ namespace Spatial.API.Controllers
     {
         private readonly AppDbContext _context;
 
-        public FieldsController(AppDbContext context)
+        public FieldsController(AppDbContext context)           // constructor
         {
             _context = context;
         }
@@ -102,12 +102,12 @@ namespace Spatial.API.Controllers
             {
                 NotFound();
             }
-
+            field.Id = entitiy.Id;
             field.Geom = entitiy.Geom;
             field.IsActive = entitiy.IsActive;
             field.Name = entitiy.Name;
             field.NeighId = entitiy.NeighId;
-            field.Person = entitiy.Person;
+            field.PersonId = entitiy.PersonId;
             field.CityId = entitiy.CityId;
             field.Wkt = entitiy.Wkt;
 

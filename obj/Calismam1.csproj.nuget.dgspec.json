@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {}
+    "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {}
   },
   "projects": {
-    "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {
+    "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
+        "projectUniqueName": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
         "projectName": "Calismam1",
-        "projectPath": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
+        "projectPath": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\obj\\",
+        "outputPath": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"
