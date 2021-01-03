@@ -8,7 +8,7 @@ namespace Spatial.API.Entities
         public string Name { get; set; }
         public string Job { get; set; }
         public string Gender { get; set; }
-        public int Age { get; set; }
+        public int? Age { get; set; }
 
         // public int FieldId { get; set; }
         public List<Field> Fields { get; set; }

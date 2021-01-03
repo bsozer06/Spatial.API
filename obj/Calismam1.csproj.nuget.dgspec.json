@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {}
+    "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {}
   },
   "projects": {
-    "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {
+    "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
+        "projectUniqueName": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
         "projectName": "Calismam1",
-        "projectPath": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
+        "projectPath": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\Calismam1.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "D:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\obj\\",
+        "outputPath": "d:\\burhan\\C-Sharp\\VSCode\\myProjects\\Spatial.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

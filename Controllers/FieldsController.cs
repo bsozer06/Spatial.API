@@ -29,11 +29,14 @@ namespace Spatial.API.Controllers
                 f.Name,
                 f.IsActive,
                 f.NeighId,
-                f.Person,
+                //f.Person,
                 f.PersonId,
                 f.CityId,
                 f.CreatedTime,
-                f.Wkt
+                f.Wkt,
+                // f.Geom,
+                f.Person.Age,
+
             }).ToListAsync();
 
             return Ok(fields);   // status:200
@@ -59,7 +62,8 @@ namespace Spatial.API.Controllers
                 f.PersonId,
                 f.CityId,
                 f.CreatedTime,
-                f.Wkt
+                f.Wkt,
+                f.Geom
             });
         }
 

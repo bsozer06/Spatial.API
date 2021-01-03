@@ -25,6 +25,7 @@ namespace Calismam1
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        readonly string MyAllowOrigins = "_myAllowOrigins";
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(option =>
@@ -36,10 +37,11 @@ namespace Calismam1
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
+            
             services.AddCors(options =>
             {
                 options.AddPolicy(
-                    name: "burhanAllowOrigins",
+                    name: MyAllowOrigins,
                     builder =>
                     {
                         builder
@@ -63,6 +65,9 @@ namespace Calismam1
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(MyAllowOrigins);        // Cors hatasını önlemek için !!!!
+
 
             app.UseAuthorization();
 
