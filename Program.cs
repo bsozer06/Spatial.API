@@ -75,7 +75,7 @@ namespace Calismam1
                     db.People.AddRange(PersonData);
                     db.Fields.AddRange(fieldData);
 
-                    db.SaveChanges();
+                    db.SaveChangesAsync();
 
                     System.Console.WriteLine("veriler yuklenmistir....");
                 }

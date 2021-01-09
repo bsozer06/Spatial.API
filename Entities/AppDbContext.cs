@@ -7,6 +7,7 @@ namespace Spatial.API.Entities
         public DbSet<Person> People { get; set; }
         public DbSet<Field> Fields { get; set; }
         
+        // Program.cs icerisinde SeedingDatabase metodunun calisma icin GEREKLI !!!!!
         public AppDbContext()
         {
             Database.Migrate();
